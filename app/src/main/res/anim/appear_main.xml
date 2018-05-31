@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <translate android:fromXDelta="100%p"
+        android:toXDelta="0%p"
+        android:fromYDelta="15%p"
+        android:toYDelta="15%p"
+        android:duration="3000"/>
+
+    <!--대상물의  x 축100%만큼, y축으로 15에서 15만큼 이동해서 3초이후에 원래 자리로 가지고 온다-->
+
+
+
+
+
+</set>

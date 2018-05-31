@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:duration="2000"/>
+
+    <scale
+        android:fromXScale="0.2"
+        android:toXScale="1.0"
+        android:fromYScale="0.2"
+        android:toYScale="1.0"
+        android:pivotY="50%"
+        android:pivotX="50%"
+        android:duration="2000"/>
+
+    <!--중심축에서 x축으로 2초동안 확대한다 0.2에서 1.0(최대값으로)-->
+    <!---->
+    <!--중심축에서 y축으로 2초동안 확대한다. 피벗 상에서 0 ,50,100에서 50지점에서 확대한다.-->
+
+</set>

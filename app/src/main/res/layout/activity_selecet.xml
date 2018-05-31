@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/line1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp"
+    tools:context="com.psystudio.myapplication.SelecetActivity">
+
+    <LinearLayout
+        android:id="@id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:weightSum="4"
+        android:padding="2dp"
+        android:background="@drawable/awhite"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivw1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:src="@drawable/pig"
+            android:layout_weight="1"
+            android:padding="2dp"
+            android:onClick="Btn1"/>
+
+        <ImageView
+            android:id="@+id/ivw2"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:src="@drawable/snake"
+            android:layout_weight="1"
+            android:padding="2dp"
+            android:onClick="Btn2"/>
+
+        <ImageView
+            android:id="@+id/ivw3"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:src="@drawable/rabbit"
+            android:layout_weight="1"
+            android:padding="2dp"
+            android:onClick="Btn3"/>
+
+        <ImageView
+            android:id="@+id/ivw4"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:src="@drawable/penguin"
+            android:layout_weight="1"
+            android:padding="2dp"
+            android:onClick="Btn4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:background="@drawable/rend">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="대여소"
+            android:textSize="24sp"
+            android:padding="2dp"
+            android:textColor="#d104f5"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="판매점"
+            android:textSize="24sp"
+            android:padding="2dp"
+            android:textStyle="bold"
+            android:textColor="#5cde5c"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="유투브"
+            android:gravity="center_horizontal"
+            android:textSize="24sp"
+            android:padding="2dp"
+            android:textStyle="bold"
+            android:textColor="#059fec"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="안전"
+            android:gravity="center_horizontal"
+            android:textColor="#160148"
+            android:textStyle="bold"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:id="@+id/line3"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/doro"/>
+
+        <LinearLayout
+            android:id="@+id/line4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="2dp">
+
+            <Button
+                android:id="@+id/rcBtn"
+                android:background="@drawable/b3"
+                android:text = "추천코스(공사중)"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="4dp" />
+
+
+        </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>

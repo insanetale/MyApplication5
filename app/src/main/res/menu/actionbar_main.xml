@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_search"
+            android:title="항목이동"
+            app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_lender"
+          android:title="대여소"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_sell"
+        android:title="판매점"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_guard"
+        android:title="안내소"
+        app:showAsAction="never"/>
+
+</menu>
